@@ -4,45 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Карточка студента - Клопова Дмитрия</title>
+    <meta name="description" content="Карточка студента">
+    <meta name='keywords' content="Карточка студента Клопова">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-   <main>
-    <h1>Резюме</h1>
-    <h2>Разработчик веб-приложений</h2>
-    <section class="study">
-        <h2>Образование</h2>
-        <ul>
-            <li class="place-of-study-1">Место учёбы №4</li>
-            <li class="place-of-study-2">Место учёбы №2</li>
-            <li class="place-of-study-3">Место учёбы №3</li>
-        </ul>
-    </section>
-    <section class="works">
-        <h2>Примеры работ</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>№</th>
-                    <th>Название работы</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Моя классная работа</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Моя классная работа</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Моя классная работа</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-   </main>
-</body>
+    <h1 class="title">Карточка студента</h1>
+    <div class="content">
+        <div class="info">
+            <img src="./imgs/photo1.jpeg" alt="Photo" width="250">
+            <div class="info-group">
+                <p class="info_label">Имя, фамилия:</p>
+                <p class="info_p">
+                    Клопов Дмитрий
+                </p>
+                <p class="info_label">Возраст:</p>
+                <p class="info_p">
+                    36 лет
+                </p>
+                <p class="info_label">О себе:</p>          
+                <p class="info_p">
+                    Проживаю в городе Иркутске. Женат. Имею одного ребёнка.Образование среднее. Работаю программистом в World Class 
+                    Иркутск на аутсорсинге. В работе использую языки PHP,JS,MYSQL. Проект построен на старом 
+                    framework extjs 3.4. Стаж работы программистом чуть больше года в этом проекте. До этого 
+                    работал инженером КТВ,ЛКС, монтажником подключения в компании МТС, отработал более 8 лет. 
+                </p>
+            </div>
+        </div>    
+        <div class="goal">
+            <H4> Цель обучения:</H4>
+            <ul>
+                <li>Получить доп. навыки программирования frontend разработчика.</li>
+                <li>Научиться создавать проекты с нуля.</li>
+                <li>Преодолеть психологические барьеры в тупиковых ситуациях.</li>
+                <li>Научиться работать в команде.</li>
+                <li>Оценить себя перед другими программистами.</li>
+                <li>Пройти курс до конца и перебороть лень к обучению.</li>
+            </ul>
+        </div>
+        <div class="time">
+            <h4>Сколько времени могу учиться</h4>
+            <table>
+                <thead>
+                    <th>День недели</th>
+                    <th>Время (мск. GMT+3)</th>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td>Понедельник</td>
+                        <td>16:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Вторник</td>
+                        <td>16:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Среда</td>
+                        <td>16:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Четверг</td>
+                        <td>16:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Пятница</td>
+                        <td>16:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Суббота</td>
+                        <td>10:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td>Воскресенье</td>
+                        <td>10:00 - 17:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="progList">
+            <h4>Мои пройденые курсы:</h4>
+            <table>
+                <thead>
+                    <th>Имя курса</th>
+                    <th>Автор</th>
+                    <th>Оценка курса</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML&CSS</td>
+                        <td>Владилен Минин</td>
+                        <td>10/10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+            <h4>Контакты</h4>
+            <div class="link">
+                <span >Телеграм</span> <a href="https://t.me/SberIrk"  ictarget="_blank"><img class="link_img" src="./imgs/telegram.jpg" alt="Телеграм"> </a> 
+                <span >WhatsApp</span> <a href="https://wa.me/79148990195" target="_blank"><img class="link_img" src="./imgs/whatsapp.png" alt="WhatsApp"></a>
+                <span >GitHub</span> <a href="https://sberirk.github.io" target="_blank"><img class="link_img" src="./imgs/github.png" alt="WhatsApp"></a>
+            </div>  
+        </div>
+    </body>
 </html>
