@@ -185,6 +185,38 @@ p.info_label{
     margin-bottom: 10px;
 }
 
+
+div.checkList {
+    background-color: antiquewhite;
+}
+
+div.checkList ul {
+    color:#8e9198;
+    list-style-type: "📋";
+    width: auto;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+div.checkList ul li {
+    padding-left: 5px;
+}
+
+div.checkList ul li :hover{
+    border-bottom: firebrick solid 1px;
+}
+
+
+div.checkList a:visited{
+    color:#3e4864
+}
+
+div.checkList a:hover{
+    text-decoration: none;
+
+}
+
+
+
 .link {
     display: flex;
     text-align: center;
