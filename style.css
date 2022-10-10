@@ -189,7 +189,7 @@ p.info_label{
 .checkList {
     background-color: antiquewhite;
 }
-/*
+
 .checkList ul {
     color:#8e9198;
     list-style-type: "📋";
@@ -214,8 +214,6 @@ p.info_label{
 .checkList a:hover{
     text-decoration: none;
 }
-
-*/
 
 
 .link {
