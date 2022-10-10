@@ -186,34 +186,35 @@ p.info_label{
 }
 
 
-div.checkList {
+.checkList {
     background-color: antiquewhite;
 }
 
-div.checkList ul {
+.checkList ul {
     color:#8e9198;
     list-style-type: "📋";
     width: auto;
     margin-top: 5px;
     margin-left: 25px;
 }
-div.checkList ul li {
+
+.checkList ul li {
     padding-left: 5px;
 }
 
-div.checkList ul li :hover{
+.checkList ul li :hover{
     border-bottom: firebrick solid 1px;
 }
 
 
-div.checkList a:visited{
+.checkList a:visited{
     color:#3e4864
 }
 
-div.checkList a:hover{
+.checkList a:hover{
     text-decoration: none;
-
 }
+
 
 
 
